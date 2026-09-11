@@ -13,6 +13,7 @@ const LOGOS: Logo[] = [
   { name: 'Adjuma', src: '/logos/adjuma.png', width: 100, height: 32 },
   { name: 'European Union', src: '/logos/eu.svg', width: 42, height: 28 },
   { name: 'Hack54', src: '/logos/hack54.png', width: 100, height: 20 },
+  { name: 'Verslaaf', src: '/logos/verslaaf.png', width: 30, height: 31 },
 ]
 
 export default function LogoStrip() {

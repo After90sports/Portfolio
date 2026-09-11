@@ -22,7 +22,7 @@ export default function Nav() {
             <Link href="/" className="text-sm font-semibold text-white sm:text-base">
               husseni shamsudeen
             </Link>
-            <p className="mt-0.5 text-xs text-white/60">
+            <p className="mt-0.5 text-[10px] text-white/60">
               Filmmaker &middot; Creative Director &middot; Sports Photographer
             </p>
           </div>
