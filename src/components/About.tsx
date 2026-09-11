@@ -1,15 +1,31 @@
+import Image from 'next/image'
+
 export default function About() {
   return (
     <section id="about" className="px-5 py-24 sm:px-8 sm:py-32">
       <div className="mx-auto max-w-6xl rounded-[2rem] border border-[var(--line)] bg-[var(--panel)] p-8 sm:p-14">
-        <span className="eyebrow-pill">ABOUT ME</span>
-        <h2 className="font-display mt-6 max-w-3xl text-3xl leading-snug text-[var(--ink)] sm:text-5xl">
-          Shamsu the Explorer.
-        </h2>
-        <p className="mt-3 max-w-2xl text-lg text-[var(--muted)]">
-          The male version of Dora the Explorer &mdash; with a camera, a
-          story to tell, and a world still waiting to be explored.
-        </p>
+        <div className="flex flex-col-reverse items-start gap-10 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <span className="eyebrow-pill">ABOUT ME</span>
+            <h2 className="font-display mt-6 max-w-3xl text-3xl leading-snug text-[var(--ink)] sm:text-5xl">
+              Shamsu the Explorer.
+            </h2>
+            <p className="mt-3 max-w-2xl text-lg text-[var(--muted)]">
+              The male version of Dora the Explorer &mdash; with a camera, a
+              story to tell, and a world still waiting to be explored.
+            </p>
+          </div>
+
+          <div className="relative aspect-square w-40 shrink-0 overflow-hidden rounded-2xl border border-[var(--line)] sm:w-56">
+            <Image
+              src="/husseni-headshot-v2.png"
+              alt="Shamsudeen Husseni"
+              fill
+              sizes="(min-width: 640px) 224px, 160px"
+              className="object-cover"
+            />
+          </div>
+        </div>
 
         <div className="mt-10 max-w-2xl space-y-6 text-base leading-relaxed text-[var(--muted)]">
           <p>

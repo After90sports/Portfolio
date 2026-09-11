@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Hero() {
@@ -6,16 +5,19 @@ export default function Hero() {
     <>
       <section
         id="top"
-        className="relative isolate flex min-h-[78vh] flex-col justify-end overflow-hidden sm:min-h-screen"
+        className="relative isolate flex min-h-[58vh] flex-col justify-end overflow-hidden sm:min-h-screen"
       >
-        <Image
-          src="/husseni-headshot-v2.png"
-          alt="Shamsudeen Husseni"
-          fill
-          sizes="100vw"
-          priority
-          className="-z-10 object-cover object-[center_2%] sm:object-[center_15%]"
-        />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/hero-poster.jpg"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-[75%_center] sm:object-[center_35%]"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 -z-10 bg-black/35" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/15 to-transparent" />
 
