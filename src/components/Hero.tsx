@@ -36,13 +36,13 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="/work"
-              className="rounded-full bg-white px-7 py-3.5 text-sm font-bold tracking-wide text-[var(--ink)] uppercase transition-colors hover:bg-white/90"
+              className="rounded-full bg-white px-3 py-1.5 text-xs font-bold tracking-wide text-[var(--ink)] uppercase transition-colors hover:bg-white/90 sm:px-7 sm:py-3.5 sm:text-sm"
             >
               See my work
             </Link>
             <Link
               href="/contact"
-              className="rounded-full border border-white/40 px-7 py-3.5 text-sm font-bold tracking-wide text-white uppercase transition-colors hover:border-white"
+              className="rounded-full border border-white/40 px-3 py-1.5 text-xs font-bold tracking-wide text-white uppercase transition-colors hover:border-white sm:px-7 sm:py-3.5 sm:text-sm"
             >
               Get in touch
             </Link>
@@ -78,13 +78,13 @@ export default function Hero() {
             <div className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:justify-start">
               <a
                 href="mailto:mysticaldesignz@gmail.com"
-                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)] sm:px-6 sm:py-3 sm:text-sm"
               >
                 Email
               </a>
               <a
                 href="tel:+233557161647"
-                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)] sm:px-6 sm:py-3 sm:text-sm"
               >
                 Call
               </a>
@@ -92,7 +92,7 @@ export default function Hero() {
                 href="https://www.instagram.com/husseni_shamsudeen/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)] sm:px-6 sm:py-3 sm:text-sm"
               >
                 Instagram
               </a>
@@ -100,7 +100,7 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/shamsudeen-husseni-3b2147413/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-3 py-1.5 text-xs font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)] sm:px-6 sm:py-3 sm:text-sm"
               >
                 LinkedIn
               </a>

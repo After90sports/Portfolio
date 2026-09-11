@@ -65,7 +65,7 @@ export default function ContactForm() {
 
           <button
             type="submit"
-            className="btn-arrow mt-2 rounded-full bg-[var(--ink)] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-black"
+            className="btn-arrow mt-2 rounded-full bg-[var(--ink)] px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-black sm:px-6 sm:py-3 sm:text-sm"
           >
             Send it <span className="arrow">&rarr;</span>
           </button>
