@@ -84,9 +84,18 @@ const LEADERSHIP: LeadershipEntry[] = [
     dates: '2024',
     href: 'https://www.youtube.com/watch?v=u02leWQTbF8&list=PL6GlYBIZDDGUaolMSwJZOAqYTHRxSaCCJ',
   },
-  { org: 'thedsgnjunkies', role: 'in-house production lead — fidcon' },
+  {
+    org: 'thedsgnjunkies',
+    role: 'in-house production lead — fidcon',
+    href: 'https://youtu.be/T95eRLPpUwM?si=Yr81EKe_ZlYcGEOo',
+  },
   { org: 'thedsgnjunkies', role: 'video editor (volunteer)', dates: 'mar 2022 — present' },
-  { org: 'Kweku Tech', role: 'video editor (volunteer)', dates: 'feb 2021 — oct 2023' },
+  {
+    org: 'Kweku Tech',
+    role: 'video editor (volunteer)',
+    dates: 'feb 2021 — oct 2023',
+    href: 'https://www.youtube.com/@kwekutech',
+  },
 ]
 
 export default function Work() {
