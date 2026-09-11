@@ -64,44 +64,49 @@ export default function Hero() {
         <Stat value="Founder" label="After90" />
       </div>
 
-      <LogoStrip />
+      <section
+        id="contact"
+        className="border-t border-[var(--line)] px-5 py-12 sm:px-8"
+      >
+        <div className="mx-auto grid max-w-5xl gap-12 sm:grid-cols-2 sm:gap-8">
+          <LogoStrip />
 
-      <section id="contact" className="px-5 pb-28 sm:px-8">
-        <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-          <p className="text-sm font-medium tracking-wide text-[var(--muted)] uppercase">
-            Get in touch
-          </p>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="mailto:mysticaldesignz@gmail.com"
-              className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
+            <p className="text-sm font-medium tracking-wide text-[var(--muted)] uppercase">
+              Get in touch
+            </p>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:justify-start">
+              <a
+                href="mailto:mysticaldesignz@gmail.com"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+              >
+                Email
+              </a>
+              <a
+                href="tel:+233557161647"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+              >
+                Call
+              </a>
+              <a
+                href="https://www.instagram.com/husseni_shamsudeen/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+              >
+                Instagram
+              </a>
+            </div>
+            <p className="mt-6 text-xs tracking-wide text-[var(--muted-2)] uppercase">
+              Based in Accra, Ghana &middot; Available worldwide, remote
+            </p>
+            <Link
+              href="/contact"
+              className="nav-link mt-4 text-sm text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
             >
-              Email
-            </a>
-            <a
-              href="tel:+233557161647"
-              className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
-            >
-              Call
-            </a>
-            <a
-              href="https://www.instagram.com/husseni_shamsudeen/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
-            >
-              Instagram
-            </a>
+              Or send a message
+            </Link>
           </div>
-          <p className="mt-6 text-xs tracking-wide text-[var(--muted-2)] uppercase">
-            Based in Accra, Ghana &middot; Available worldwide, remote
-          </p>
-          <Link
-            href="/contact"
-            className="nav-link mt-4 text-sm text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
-          >
-            Or send a message
-          </Link>
         </div>
       </section>
     </>
