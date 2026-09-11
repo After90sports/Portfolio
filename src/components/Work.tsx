@@ -58,8 +58,13 @@ const LEADERSHIP: LeadershipEntry[] = [
     role: 'post production',
     href: 'https://youtu.be/ctnePu37mNU?si=oA9eTYfpB0e57me-',
   },
-  { org: 'After90', role: 'founder & creative director', dates: '2025 — present' },
-  { org: 'Tech in Ghana Conference', role: 'head of production', dates: 'december 2025' },
+  { org: 'After90', role: 'founder & creative director', dates: '2025 — present', href: 'https://www.youtube.com/@after90' },
+  {
+    org: 'Tech in Ghana Conference',
+    role: 'head of production',
+    dates: 'december 2025',
+    href: 'https://www.youtube.com/@techinghanaofficial',
+  },
   {
     org: 'HAck54 Health Hackathon',
     role: 'head of production',
@@ -67,8 +72,19 @@ const LEADERSHIP: LeadershipEntry[] = [
     href: 'https://www.youtube.com/@Hack54org',
   },
   { org: 'Google Events — AI Community Centre', role: 'production lead', dates: 'may — dec 2025' },
-  { org: 'thedsgnjunkies', role: 'production lead — dyg campus tour', dates: 'jan — may 2025' },
-  { org: 'thedsgnjunkies', role: 'production lead — junkie talks podcast', dates: '2024' },
+  {
+    org: 'thedsgnjunkies',
+    role: 'production lead — dyg campus tour',
+    dates: 'jan — may 2025',
+    href: 'https://www.youtube.com/watch?v=7wBHhuG_vE4&list=PL6GlYBIZDDGWJNcZAS_6qYrPNyi9hClKM',
+  },
+  {
+    org: 'thedsgnjunkies',
+    role: 'production lead — junkie talks podcast',
+    dates: '2024',
+    href: 'https://www.youtube.com/watch?v=u02leWQTbF8&list=PL6GlYBIZDDGUaolMSwJZOAqYTHRxSaCCJ',
+  },
+  { org: 'thedsgnjunkies', role: 'in-house production lead — fidcon' },
   { org: 'thedsgnjunkies', role: 'video editor (volunteer)', dates: 'mar 2022 — present' },
   { org: 'Kweku Tech', role: 'video editor (volunteer)', dates: 'feb 2021 — oct 2023' },
 ]
