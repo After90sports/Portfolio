@@ -87,6 +87,7 @@ const LEADERSHIP: LeadershipEntry[] = [
   {
     org: 'thedsgnjunkies',
     role: 'in-house production lead — fidcon',
+    dates: '2024 — 2025',
     href: 'https://youtu.be/T95eRLPpUwM?si=Yr81EKe_ZlYcGEOo',
   },
   { org: 'thedsgnjunkies', role: 'video editor (volunteer)', dates: 'mar 2022 — present' },
