@@ -1,20 +1,20 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Anton } from 'next/font/google'
+import { Crimson_Text, Unica_One } from 'next/font/google'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import './globals.css'
 
-const inter = Inter({
+const crimsonText = Crimson_Text({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  variable: '--font-inter',
+  weight: ['400', '600', '700'],
+  variable: '--font-crimson',
   display: 'swap',
 })
 
-const anton = Anton({
+const unicaOne = Unica_One({
   subsets: ['latin'],
   weight: ['400'],
-  variable: '--font-anton',
+  variable: '--font-unica',
   display: 'swap',
 })
 
@@ -55,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${anton.variable}`}>
+    <html lang="en" className={`${crimsonText.variable} ${unicaOne.variable}`}>
       <body>
         <Nav />
         <main>{children}</main>
