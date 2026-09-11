@@ -96,6 +96,14 @@ export default function Hero() {
               >
                 Instagram
               </a>
+              <a
+                href="https://www.linkedin.com/in/shamsudeen-husseni-3b2147413/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold text-[var(--ink)] transition-colors hover:border-[var(--ink)]"
+              >
+                LinkedIn
+              </a>
               <Link
                 href="/contact"
                 className="nav-link text-sm lowercase text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
