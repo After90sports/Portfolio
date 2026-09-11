@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LogoStrip from './LogoStrip'
 
 export default function Hero() {
   return (
@@ -62,6 +63,8 @@ export default function Hero() {
         <Stat value="45+" label="Productions" />
         <Stat value="Founder" label="After90" />
       </div>
+
+      <LogoStrip />
 
       <section id="contact" className="px-5 pb-28 sm:px-8">
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
