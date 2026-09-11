@@ -6,7 +6,7 @@ export default function Hero() {
     <>
       <section
         id="top"
-        className="relative isolate flex min-h-[92vh] flex-col overflow-hidden"
+        className="relative isolate flex min-h-[78vh] flex-col justify-end overflow-hidden sm:min-h-screen"
       >
         <Image
           src="/husseni-headshot-v2.png"
@@ -14,34 +14,34 @@ export default function Hero() {
           fill
           sizes="100vw"
           priority
-          className="-z-10 object-cover object-[center_28%]"
+          className="-z-10 object-cover object-[center_2%] sm:object-[center_15%]"
         />
-        <div className="absolute inset-0 -z-10 bg-black/30" />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/10 to-black/50" />
+        <div className="absolute inset-0 -z-10 bg-black/35" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/15 to-transparent" />
 
-        <div className="relative flex flex-1 flex-col justify-between px-5 pt-28 pb-10 sm:px-8 sm:pt-32 sm:pb-14">
-          <div className="flex flex-wrap items-center justify-center gap-2.5">
-            <span className="sticker">Filmmaker</span>
-            <span className="sticker">Creative Director</span>
-            <span className="sticker">Sports Photographer</span>
-          </div>
+        <div className="relative mx-auto max-w-3xl px-5 pt-24 pb-16 text-center sm:px-8 sm:pb-24">
+          <h1 className="font-display text-5xl leading-[0.95] tracking-tight text-white sm:text-7xl">
+            SHAMSU THE
+            <br />
+            EXPLORER.
+          </h1>
+          <p className="mx-auto mt-6 max-w-lg text-base leading-relaxed text-white/80 sm:text-lg">
+            I go looking for stories &mdash; on a sporting field, behind a
+            camera, or somewhere I&rsquo;ve never stood before.
+          </p>
 
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-base text-white/80">
-              Hi <span aria-hidden>👋</span>, I&rsquo;m Shamsudeen
-            </p>
-            <h1 className="font-display mt-3 text-4xl leading-[1.05] tracking-tight text-white sm:text-6xl">
-              SHAMSU THE EXPLORER
-            </h1>
-            <p className="font-display mt-3 text-xl text-white sm:text-2xl">
-              I go looking for stories.
-            </p>
-
+          <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="/work"
-              className="btn-arrow mt-8 inline-flex rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[var(--accent-hover)]"
+              className="rounded-full bg-white px-7 py-3.5 text-sm font-bold tracking-wide text-[var(--ink)] uppercase transition-colors hover:bg-white/90"
             >
-              See my work <span className="arrow">&rarr;</span>
+              See my work
+            </Link>
+            <Link
+              href="/contact"
+              className="rounded-full border border-white/40 px-7 py-3.5 text-sm font-bold tracking-wide text-white uppercase transition-colors hover:border-white"
+            >
+              Get in touch
             </Link>
           </div>
         </div>
