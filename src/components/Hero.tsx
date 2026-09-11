@@ -29,7 +29,7 @@ export default function Hero() {
             EXPLORER.
           </h1>
           <p className="mx-auto mt-6 max-w-lg text-base leading-relaxed text-white/80 sm:text-lg">
-            I go looking for stories &mdash; on a sporting field, behind a
+            I go looking for stories; on a sporting field, behind a
             camera, or somewhere I&rsquo;ve never stood before.
           </p>
 
@@ -52,9 +52,9 @@ export default function Hero() {
 
       <div className="mx-auto max-w-xl px-5 pt-14 text-center sm:px-8">
         <p className="text-base leading-relaxed text-[var(--muted)]">
-          Trained as a scientist, I found my calling behind a camera &mdash;
-          now chasing the human story behind every frame, on a sporting
-          field or somewhere I&rsquo;ve never stood before.
+          Trained as a scientist, I found my calling behind a camera; now
+          chasing the human story behind every frame, on a sporting field
+          or somewhere I&rsquo;ve never stood before.
         </p>
       </div>
 
@@ -96,16 +96,16 @@ export default function Hero() {
               >
                 Instagram
               </a>
+              <Link
+                href="/contact"
+                className="nav-link text-sm lowercase text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
+              >
+                Or send a message
+              </Link>
             </div>
             <p className="mt-6 text-xs tracking-wide text-[var(--muted-2)] uppercase">
               Based in Accra, Ghana &middot; Available worldwide, remote
             </p>
-            <Link
-              href="/contact"
-              className="nav-link mt-4 text-sm text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
-            >
-              Or send a message
-            </Link>
           </div>
         </div>
       </section>

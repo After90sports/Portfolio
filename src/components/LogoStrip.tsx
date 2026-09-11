@@ -21,7 +21,7 @@ const LOGOS: Logo[] = [
 export default function LogoStrip() {
   return (
     <div>
-      <p className="text-center text-sm leading-snug text-[var(--muted)] sm:text-left">
+      <p className="text-center text-sm tracking-wide text-[var(--muted)] uppercase sm:text-left">
         Trusted by teams and brands I&rsquo;ve worked with
       </p>
       <div className="no-scrollbar mt-7 flex items-center justify-center gap-x-10 overflow-x-auto sm:justify-start">
