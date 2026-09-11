@@ -9,18 +9,12 @@ export default function Footer() {
         </span>
         <div className="flex items-center gap-6">
           <a
-            href="mailto:mysticaldesignz@gmail.com"
-            className="text-sm text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
-          >
-            Email
-          </a>
-          <a
             href="https://afterninetysports.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
           >
-            After90 Media &rarr;
+            After90 Media
           </a>
         </div>
       </div>

@@ -44,7 +44,7 @@ export default function Nav() {
               href="/contact"
               className="hidden rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[var(--ink)] transition-colors hover:bg-white/90 md:inline-flex"
             >
-              Hire Me!
+              Let&rsquo;s Work
             </Link>
 
             <button

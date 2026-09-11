@@ -100,7 +100,7 @@ export default function Hero() {
             href="/contact"
             className="nav-link mt-4 text-sm text-[var(--muted)] transition-colors hover:text-[var(--ink)]"
           >
-            Or send a message &rarr;
+            Or send a message
           </Link>
         </div>
       </section>
